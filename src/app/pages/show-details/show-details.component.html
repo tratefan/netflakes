@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="image-box">
+    <img [src]="show?.image?.original" />
+  </div>
+
+  <div style="width: 65%; float:right" class="show-description">
+    <mat-card>
+      <div style="margin: 3%;">
+        <h1>{{ show?.name }}</h1>
+        <hr>
+        <span *ngIf="show?.rating?.average">
+          <small>imdb rating: {{ show!.rating!.average }}</small>
+        </span>
+        <h2>Summary</h2>
+        <div [innerHTML]="show?.summary"></div>
+        <h2>Genres</h2>
+        <ng-container *ngFor="let genre of show?.genres">
+          {{ genre }}
+        </ng-container>
+      </div>
+    </mat-card>
+
+  </div>
+</div>

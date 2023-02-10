@@ -1,0 +1,27 @@
+// .center {
+//   display: flex;
+//   // background-color: #ff1124;
+//   justify-content: center;
+//   display: inline-block;
+//   font-size: 70px;
+//   align-self: center;
+//   margin-top: 15%;
+// }
+
+
+.container h1 {
+  font-size: 70px;
+  margin-top: 13%;
+}
+
+.container {
+  justify-content: center;
+
+  text-align: center;
+  height: 100vh;
+  border: 1px solid black;
+}
+
+.browse {
+  margin-top: 6%;
+}

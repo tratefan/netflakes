@@ -1,0 +1,19 @@
+.image-box {
+  width: 35%;
+  float: left;
+
+  img {
+    width: 85%;
+    margin: 2%;
+  }
+}
+
+.show-description {
+  width: 65%;
+  float: right;
+  margin-top: 3%;
+
+  h1 {
+    font-size: 70px;
+  }
+}

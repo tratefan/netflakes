@@ -1,0 +1,15 @@
+.product-item-content {
+  width: 210px;
+  height: 295px;
+  background: #f6f7f8;
+  margin-bottom: 10px;
+}
+
+.image-sp {
+  padding: 20% !important;
+  margin: 10% !important;
+}
+
+::ng-deep .splide__track {
+  margin-top: -90px !important;
+}
